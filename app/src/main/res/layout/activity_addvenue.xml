@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1">
+
+    <EditText
+        android:id="@+id/venueName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/spinnerSports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/sports"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:id="@+id/venueLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Location Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/venueCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Cost per hour"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/latitute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Latitute"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/longitute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Longitute"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonVenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add venue" />
+</LinearLayout>

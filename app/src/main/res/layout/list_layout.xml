@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Venue Name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewSports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinnerTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/time"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:id="@+id/btn_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD DATE" />
+
+    <Button
+        android:id="@+id/bookDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHECK LOCATION" />
+
+    <Button
+        android:id="@+id/book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_click"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bookingId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/sportName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/sportVenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/sportDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/sportTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/qrGenerator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QR code" />
+
+
+</LinearLayout>

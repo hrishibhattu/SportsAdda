@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "293183384911",
+    "firebase_url": "https://android-app-a747e.firebaseio.com",
+    "project_id": "android-app-a747e",
+    "storage_bucket": "android-app-a747e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293183384911:android:c7f1c7bec0786719ce693a",
+        "android_client_info": {
+          "package_name": "com.example.sportsadda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293183384911-qlv5kadfig4rvg42u8mqk53k8h1h71vr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAwcCJ3TjESfqoOV02EnjLT9NtmazO_tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293183384911-qlv5kadfig4rvg42u8mqk53k8h1h71vr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
